@@ -60,7 +60,10 @@ CREATE TABLE IF NOT EXISTS `tblKledij` (
   `categorie` varchar(6) NOT NULL,
   `beschrijving` varchar(300) NOT NULL,
   `maat` varchar(3) NOT NULL,
+  `foto` varchar(100),
   `gereserveerd` BOOLEAN NOT NULL,
+ `leerling` varchar(50),
+  `klas` varchar(10),
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB;
 
