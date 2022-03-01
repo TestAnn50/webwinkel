@@ -39,6 +39,7 @@ CREATE TABLE IF NOT EXISTS `tblAdmin` (
 	`id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(30) NOT NULL,
   `ww` varchar(30) NOT NULL,
+ `mailadres` varchar(30) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB;
 
