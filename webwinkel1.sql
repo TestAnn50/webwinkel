@@ -38,7 +38,7 @@ DROP TABLE IF EXISTS `webwinkel`.`login` ;
 CREATE TABLE IF NOT EXISTS `login` (
 	`idlk` int(11) NOT NULL AUTO_INCREMENT,
   `gebruikersnaam` varchar(30) NOT NULL,
-  `wachtwoord` varchar(30) NOT NULL,
+  `wachtwoord` varchar(255) NOT NULL,
   `mailadres` varchar(30),
   PRIMARY KEY (`idlk`)
 ) ENGINE=InnoDB;
