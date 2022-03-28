@@ -40,6 +40,7 @@ CREATE TABLE IF NOT EXISTS `login` (
   `gebruikersnaam` varchar(30) NOT NULL,
   `wachtwoord` varchar(255) NOT NULL,
   `mailadres` varchar(30),
+  `verified` int(1) NOT NULL DEFAULT 0,
   PRIMARY KEY (`idlk`)
 ) ENGINE=InnoDB;
 
